@@ -1,0 +1,21 @@
+
+<div class="center jumbotron">
+
+<p>
+
+<%= form_for :post do |f| %>
+
+	<div class "form-group">
+		<label> Nom de la cryptomonnaie : </label>
+
+	<%= f.text_field :name, class: "form-control" %>
+
+	<div class= "form-group"> <br>
+		<button type = "submit" class= "btn btn-primary"> Rechercher </button>
+<% end %>
+
+</p><br>
+
+<a href= "/show"> > Clique ici pour afficher toutes les cryptomonnaies.</a>
+
+</div>

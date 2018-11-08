@@ -1,0 +1,14 @@
+<div class="center jumbotron">
+
+<p>
+
+<% Crypto.all.each do |f| %>
+
+<b> Nom : </b> <%= f.currency %> <br>
+<b> Valeur : </b> <%= f.price %> <br><br>
+
+<% end %>
+
+</p>
+
+</div>
